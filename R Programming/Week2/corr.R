@@ -8,7 +8,7 @@ corr <- function(directory, threshold = 0) {
     ## nitrate and sulfate; the default is 0
     
     ## Return a numeric vector of correlations
-    source('C:/Coursera_data_science/complete.R')
+    source('complete.R')
     
     files <-complete(directory,id =1:332)
     x <- thFilter(files,threshold,2)
